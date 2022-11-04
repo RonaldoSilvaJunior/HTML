@@ -84,13 +84,13 @@ h2{
 
 }
 
-.inputBox{
+.inputCaixa{
 	position: relative;
 	width: 300px;
 	margin-top: 35px;
 }
 
-.inputBox input{
+.inputCaixa input{
 	position: relative;
 	width: 100%;
 	padding: 20px 10px 10px;
@@ -105,7 +105,7 @@ h2{
 	z-index: 10;
 }
 
-.inputBox span 
+.inputCaixa span 
 {
 	position: absolute;
 	left: 0;
@@ -116,14 +116,14 @@ h2{
 	letter-spacing: 0.05em;
 	transition: 0.5s;
 }
-.inputBox input:valid ~ span,
-.inputBox input:focus ~ span 
+.inputCaixa input:valid ~ span,
+.inputCaixa input:focus ~ span 
 {
 	color: #45f3ff;
 	transform: translateX(0px) translateY(-34px);
 	font-size: 0.75em;
 }
-.inputBox i 
+.inputCaixa i 
 {
 	position: absolute;
 	left: 0;
@@ -137,8 +137,8 @@ h2{
 	pointer-events: none;
 	z-index: 9;
 }
-.inputBox input:valid ~ i,
-.inputBox input:focus ~ i 
+.inputCaixa input:valid ~ i,
+.inputCaixa input:focus ~ i 
 {
 	height: 44px;
 }
@@ -176,12 +176,10 @@ input[type="submit"]:active
 	opacity: 0.8;
 }
 
-.link{
-	margin-top: 10px;
-	text-align: center;	
-}
-
 #link{
+	margin-top: 10px;
 	font-size: 20px;
 }
+
+
 
