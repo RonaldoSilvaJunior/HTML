@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppis', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #234242;
+}
+
+.box{
+    position: relative;
+    width: 380px;
+    height: 420px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+}
+
+.box ::before{
+    content: '';
+    position:absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent,transparent,#45f3ff);
+    animation:  animate 6s linear infinite;
+}
+
+@keyframes animate{
+    
+
+}
